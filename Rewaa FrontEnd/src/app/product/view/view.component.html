@@ -1,0 +1,25 @@
+﻿<div class="card mt-4">
+    <h4 class="card-header">product list</h4>
+    <div class="card-body">
+        <div *ngIf="loading" class="spinner-border spinner-border-sm"></div>
+        <div *ngIf="product">
+          <div class="row">
+
+            <div  class="col-md-6">
+              Id :               {{product.id}}
+
+            </div>
+            <div  class="col-md-6">
+              Name :               {{product.name}}
+
+            </div>
+            <div  class="col-md-6">
+              Price :               {{product.price}}
+
+            </div>
+
+          </div>
+
+        </div>
+    </div>
+</div>
