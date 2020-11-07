@@ -13,3 +13,11 @@ sudo npm run dev
 npm install
 
 sudo npm start
+
+
+
+###assignment not done :
+
+test
+
+use orm
