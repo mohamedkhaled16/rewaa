@@ -7,7 +7,7 @@ const config = require("./app/config/config.js");
 const app = express();
 
 const corsOptions = {
-  origin: "http://localhost:4200"
+  origin: "http://ec2-18-219-69-11.us-east-2.compute.amazonaws.com"
 };
 
 app.use(cors(corsOptions));
